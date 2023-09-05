@@ -1,0 +1,188 @@
+[
+  {
+    "Year": 1990,
+    "Name": "Settlers of Catan",
+    "Category": "Strategy",
+    "Publisher": "Klaus Teuber"
+  },
+  {
+    "Year": 1991,
+    "Name": "Civilization",
+    "Category": "Strategy",
+    "Publisher": "Avalon Hill"
+  },
+  {
+    "Year": 1992,
+    "Name": "Tigris & Euphrates",
+    "Category": "Strategy",
+    "Publisher": "Hans im Glück"
+  },
+  {
+    "Year": 1993,
+    "Name": "Magic: The Gathering",
+    "Category": "Card Game",
+    "Publisher": "Wizards of the Coast"
+  },
+  {
+    "Year": 1994,
+    "Name": "El Grande",
+    "Category": "Strategy",
+    "Publisher": "Hans im Glück"
+  },
+  {
+    "Year": 1995,
+    "Name": "The Settlers of Catan",
+    "Category": "Strategy",
+    "Publisher": "Klaus Teuber"
+  },
+  {
+    "Year": 1996,
+    "Name": "Carcassonne",
+    "Category": "Tile Placement",
+    "Publisher": "Hans im Glück"
+  },
+  {
+    "Year": 1997,
+    "Name": "Tikal",
+    "Category": "Strategy",
+    "Publisher": "Rio Grande Games"
+  },
+  {
+    "Year": 1998,
+    "Name": "Elfenland",
+    "Category": "Route Building",
+    "Publisher": "Amigo Spiele"
+  },
+  {
+    "Year": 1999,
+    "Name": "Tikal",
+    "Category": "Strategy",
+    "Publisher": "Rio Grande Games"
+  },
+  {
+    "Year": 2000,
+    "Name": "Puerto Rico",
+    "Category": "Strategy",
+    "Publisher": "Rio Grande Games"
+  },
+  {
+    "Year": 2001,
+    "Name": "Carcassonne",
+    "Category": "Tile Placement",
+    "Publisher": "Hans im Glück"
+  },
+  {
+    "Year": 2002,
+    "Name": "Puerto Rico",
+    "Category": "Strategy",
+    "Publisher": "Rio Grande Games"
+  },
+  {
+    "Year": 2003,
+    "Name": "Alhambra",
+    "Category": "Tile Placement",
+    "Publisher": "Queen Games"
+  },
+  {
+    "Year": 2004,
+    "Name": "Ticket to Ride",
+    "Category": "Route Building",
+    "Publisher": "Days of Wonder"
+  },
+  {
+    "Year": 2005,
+    "Name": "Caylus",
+    "Category": "Strategy",
+    "Publisher": "Ystari Games"
+  },
+  {
+    "Year": 2006,
+    "Name": "Caylus",
+    "Category": "Strategy",
+    "Publisher": "Ystari Games"
+  },
+  {
+    "Year": 2007,
+    "Name": "Agricola",
+    "Category": "Strategy",
+    "Publisher": "Lookout Games"
+  },
+  {
+    "Year": 2008,
+    "Name": "Puerto Rico",
+    "Category": "Strategy",
+    "Publisher": "Rio Grande Games"
+  },
+  {
+    "Year": 2009,
+    "Name": "Dominion",
+    "Category": "Deck Building",
+    "Publisher": "Rio Grande Games"
+  },
+  {
+    "Year": 2010,
+    "Name": "Dominion",
+    "Category": "Deck Building",
+    "Publisher": "Rio Grande Games"
+  },
+  {
+    "Year": 2011,
+    "Name": "Eclipse",
+    "Category": "Strategy",
+    "Publisher": "Lautapelit.fi"
+  },
+  {
+    "Year": 2012,
+    "Name": "Terra Mystica",
+    "Category": "Strategy",
+    "Publisher": "Feuerland Spiele"
+  },
+  {
+    "Year": 2013,
+    "Name": "Brass: Lancashire",
+    "Category": "Economic",
+    "Publisher": "Roxley Games"
+  },
+  {
+    "Year": 2014,
+    "Name": "Agricola",
+    "Category": "Strategy",
+    "Publisher": "Lookout Games"
+  },
+  {
+    "Year": 2015,
+    "Name": "Pandemic Legacy: Season 1",
+    "Category": "Cooperative",
+    "Publisher": "Z-Man Games"
+  },
+  {
+    "Year": 2016,
+    "Name": "Terraforming Mars",
+    "Category": "Strategy",
+    "Publisher": "Stronghold Games"
+  },
+  {
+    "Year": 2017,
+    "Name": "Gloomhaven",
+    "Category": "Adventure",
+    "Publisher": "Cephalofair Games"
+  },
+  {
+    "Year": 2018,
+    "Name": "The Mind",
+    "Category": "Card Game",
+    "Publisher": "NSV"
+  },
+  {
+    "Year": 2019,
+    "Name": "Wingspan",
+    "Category": "Strategy",
+    "Publisher": "Stonemaier Games"
+  },
+  {
+    "Year": 2020,
+    "Name": "Gloomhaven: Jaws of the Lion",
+    "Category": "Adventure",
+    "Publisher": "Cephalofair Games"
+  }
+]
