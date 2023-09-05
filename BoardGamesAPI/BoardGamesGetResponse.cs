@@ -1,4 +1,4 @@
-using BoardGamesAPI;
+namespace BoardGamesAPI.Controllers;
 
 public class BoardGamesGetResponse
 {
