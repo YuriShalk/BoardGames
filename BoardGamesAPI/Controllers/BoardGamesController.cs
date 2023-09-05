@@ -1,5 +1,5 @@
-using System.Text.Json;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Memory;
 
 namespace BoardGamesAPI.Controllers;
 
@@ -9,10 +9,12 @@ namespace BoardGamesAPI.Controllers;
 public class BoardGamesController : ControllerBase
 {
     private readonly ILogger<BoardGamesController> _logger;
+    private readonly IMemoryCache _memoryCache;
 
-    public BoardGamesController(ILogger<BoardGamesController> logger)
+    public BoardGamesController(ILogger<BoardGamesController> logger, IMemoryCache memoryCache)
     {
         _logger = logger;
+        _memoryCache = memoryCache;
     }
 
     [HttpGet]
@@ -21,9 +23,12 @@ public class BoardGamesController : ControllerBase
     {
         try
         {
-            string filePath = Path.Combine(Directory.GetCurrentDirectory(), "board-games-ranking.json");
-            string jsonContent = System.IO.File.ReadAllText(filePath);
-            List<BoardGames> boardGamesList = JsonSerializer.Deserialize<List<BoardGames>>(jsonContent);
+            if(!_memoryCache.TryGetValue("boardGamesList", out List<BoardGames> boardGamesList))
+            {
+                return StatusCode(500, "Dados não encontrados");
+            }
+
+            List<BoardGames> filteredGames = boardGamesList;
 
             if(!string.IsNullOrEmpty(name))
                 boardGamesList = boardGamesList.Where(x => x.Name.ToLower().Contains(name.ToLower())).ToList();
@@ -33,8 +38,9 @@ public class BoardGamesController : ControllerBase
 
             return Ok(boardGamesList);
         }
-        catch (Exception)
+        catch (Exception ex)
         {
+            Console.WriteLine($"Erro no método GET: {ex.Message}");
             return StatusCode(500, "Erro interno do servidor");
         }
     }
