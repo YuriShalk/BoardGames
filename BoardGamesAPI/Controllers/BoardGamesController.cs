@@ -36,7 +36,13 @@ public class BoardGamesController : ControllerBase
             if(year > 0)
                 boardGamesList = boardGamesList.Where(x => x.Year == year).ToList();
 
-            return Ok(boardGamesList);
+            var response = new BoardGamesGetResponse
+            {
+                Message = $"Foram encontrados {boardGamesList.Count} jogos",
+                Games = boardGamesList,
+            };
+
+            return Ok(response);
         }
         catch (Exception ex)
         {
