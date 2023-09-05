@@ -68,6 +68,15 @@ public class BoardGamesController : ControllerBase
             Year = boardGame.Year
         };
 
+        // add the new board game to the list and save it to the cache
+        List<BoardGames> boardGamesList;
+        if (!_memoryCache.TryGetValue("boardGamesList", out boardGamesList))
+        {
+            boardGamesList = new List<BoardGames>();
+        }
+        boardGamesList.Add(newBoardGame);
+        _memoryCache.Set("boardGamesList", boardGamesList);
+
         return Ok(newBoardGame);
     }
 }
